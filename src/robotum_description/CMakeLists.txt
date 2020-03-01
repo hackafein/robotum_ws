@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(mybot_description)
+project(robotum_description)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -97,7 +97,7 @@ find_package(catkin REQUIRED)
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES mybot_description
+#  LIBRARIES robotum_description
 #  CATKIN_DEPENDS other_catkin_pkg
 #  DEPENDS system_lib
 )
@@ -111,24 +111,24 @@ catkin_package(
 # include_directories(include)
 
 ## Declare a C++ library
-# add_library(mybot_description
-#   src/${PROJECT_NAME}/mybot_description.cpp
+# add_library(robotum_description
+#   src/${PROJECT_NAME}/robotum_description.cpp
 # )
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
-# add_dependencies(mybot_description ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(robotum_description ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-# add_executable(mybot_description_node src/mybot_description_node.cpp)
+# add_executable(robotum_description_node src/robotum_description_node.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-# add_dependencies(mybot_description_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(robotum_description_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(mybot_description_node
+# target_link_libraries(robotum_description_node
 #   ${catkin_LIBRARIES}
 # )
 
@@ -147,7 +147,7 @@ catkin_package(
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS mybot_description mybot_description_node
+# install(TARGETS robotum_description robotum_description_node
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
@@ -172,7 +172,7 @@ catkin_package(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_mybot_description.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_robotum_description.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

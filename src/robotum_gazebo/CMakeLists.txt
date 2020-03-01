@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(mybot_gazebo)
+project(robotum_gazebo)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -97,7 +97,7 @@ find_package(catkin REQUIRED)
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES mybot_gazebo
+#  LIBRARIES robotum_gazebo
 #  CATKIN_DEPENDS other_catkin_pkg
 #  DEPENDS system_lib
 )
@@ -111,24 +111,24 @@ catkin_package(
 # include_directories(include)
 
 ## Declare a C++ library
-# add_library(mybot_gazebo
-#   src/${PROJECT_NAME}/mybot_gazebo.cpp
+# add_library(robotum_gazebo
+#   src/${PROJECT_NAME}/robotum_gazebo.cpp
 # )
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
-# add_dependencies(mybot_gazebo ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(robotum_gazebo ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-# add_executable(mybot_gazebo_node src/mybot_gazebo_node.cpp)
+# add_executable(robotum_gazebo_node src/robotum_gazebo_node.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-# add_dependencies(mybot_gazebo_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(robotum_gazebo_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(mybot_gazebo_node
+# target_link_libraries(robotum_gazebo_node
 #   ${catkin_LIBRARIES}
 # )
 
